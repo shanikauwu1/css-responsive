@@ -77,7 +77,23 @@
 .btn:hover {
    transform: scale(0.98);
 }
+/* alert */
+.alert{
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
 
+.alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error{
+    background-color: var(--error-color);
+    color: #fff;
+}
 /* text sizes */
 .lead{
     font-size: 20px;
